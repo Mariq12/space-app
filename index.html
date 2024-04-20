@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpaceAPP</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/responsive.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:wght@300&family=Open+Sans&family=Oswald&family=Poppins:wght@200;500;700&family=Press+Start+2P&family=REM&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img class="header__logo" src="./assets/logo.png" alt="Mari">
+            <div class="header__search">
+                <input class="header__input" type="text" id="searchInput" placeholder="Buscar por nombre...">
+                <button class="header__button" onclick="buscarImagenes()">Buscar</button>
+            </div>
+        </header>
+        <div class="grouping">
+            <div class="banner">
+                <img class="banner__image" src="assets/fondo.jpg" alt="bla">
+                <h3 class="gallery__text">
+                    Explore la galería de Harry Potter
+                </h3>
+            </div>
+        </div>
+        <section class="card__section">
+            <ul class="ul__cards" data-ul></ul>
+        </section>
+        <footer class="footer">
+            <div class="footer__icons">
+                <a href="https://github.com/Mariq12" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/flor-mar%C3%ADa-labanda-puchaicela-ing-ti/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100084487023873" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/Flor_Maria_LP" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/flormarialabandapuchaicela" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer__text">Alura Latam <br>
+                Desarrollado por Flor María Labanda Puchaicela <br>
+                Abril - 2024
+            </p>
+        </footer>
+        <script src="https://kit.fontawesome.com/ef3eea8822.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
